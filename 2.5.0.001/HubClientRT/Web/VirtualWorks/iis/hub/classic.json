@@ -1,0 +1,301 @@
+{
+	"packages": {
+		"calendar": {
+			"css": true,
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic"],
+			"theme": "theme-classic",
+			"version": "6.6.0"
+		},
+		"classic": {
+			"css": true,
+			"included": true,
+			"language": {
+				"js": {
+					"input": {
+						"version": "ES5"
+					}
+				}
+			},
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core"],
+			"version": "6.6.0"
+		},
+		"cmd": {
+			"version": "6.7.0.67"
+		},
+		"core": {
+			"css": true,
+			"included": true,
+			"required": true,
+			"requires": ["ext",
+			"classic"],
+			"version": "6.6.0"
+		},
+		"d3": {
+			"css": true,
+			"included": true,
+			"lib": "${package.dir}/d3.js",
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic"],
+			"theme": "theme-classic",
+			"version": "6.6.0"
+		},
+		"exporter": {
+			"css": true,
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic"],
+			"theme": "theme-classic",
+			"version": "6.6.0"
+		},
+		"ext": {
+			"css": true,
+			"included": true,
+			"language": {
+				"js": {
+					"input": {
+						"version": "ES5"
+					}
+				}
+			},
+			"license": "commercial",
+			"namespace": "Ext",
+			"required": true,
+			"requires": [],
+			"version": "6.7.0.228"
+		},
+		"font-awesome": {
+			"css": true,
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic",
+			"theme-base",
+			"theme-neutral",
+			"theme-neptune"],
+			"theme": "theme-neptune",
+			"version": "4.7.0"
+		},
+		"font-ext": {
+			"css": true,
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic",
+			"theme-base",
+			"theme-neutral",
+			"theme-neptune"],
+			"theme": "theme-neptune",
+			"version": "6.6.0"
+		},
+		"package-loader": {
+			"css": true,
+			"included": true,
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic"],
+			"version": "1.0.0.230"
+		},
+		"pivot": {
+			"css": true,
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic",
+			"exporter"],
+			"theme": "theme-classic",
+			"version": "6.6.0"
+		},
+		"pivot-d3": {
+			"css": true,
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic",
+			"exporter",
+			"pivot",
+			"d3"],
+			"theme": "theme-classic",
+			"version": "6.6.0"
+		},
+		"theme-base": {
+			"css": true,
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic"],
+			"version": "6.6.0"
+		},
+		"theme-neptune": {
+			"css": true,
+			"extend": "theme-neutral",
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic",
+			"theme-base",
+			"theme-neutral"],
+			"version": "6.6.0"
+		},
+		"theme-neutral": {
+			"css": true,
+			"extend": "theme-base",
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic",
+			"theme-base"],
+			"version": "6.6.0"
+		},
+		"theme-triton": {
+			"css": true,
+			"extend": "theme-neptune",
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic",
+			"theme-base",
+			"theme-neutral",
+			"theme-neptune",
+			"font-awesome",
+			"font-ext"],
+			"version": "6.6.0"
+		},
+		"ux": {
+			"css": true,
+			"included": true,
+			"namespace": "Ext",
+			"required": true,
+			"requires": ["ext",
+			"core",
+			"classic"],
+			"theme": "theme-classic",
+			"version": "6.6.0"
+		}
+	},
+	"js": [{
+		"path": "classic/osinfo.js"
+	},{
+		"path": "classic/app.js"
+	},
+	{
+		"remote": true,
+		"path": "classic/purify.min.js"
+	},
+	{
+		"remote": true,
+		"path": "ramco/ckeditor/ckeditor.js"
+	},
+	{
+		"remote": true,
+		"path": "ramco/chart/fusioncharts.js"
+	},
+	{
+		"remote": true,
+		"path": "ramco/chart/fusioncharts.charts.js"
+	},
+	{
+		"remote": true,
+		"path": "EJS/Grid/GridE.js"
+	},
+	{
+		"remote": true,
+		"path": "../RuleBuilder/js/jquery-3.4.1.min.js"
+	},
+	{
+		"remote": true,
+		"path": "../RuleBuilder/js/rulebuilder-all.js"
+	},
+	{
+		"remote": true,
+		"path": "classic/ramcoRuleBuilder.js"
+	},{
+		"remote": true,
+		"path": "classic/debug/bryntum-calendar-debug.js"
+	},
+	{
+		"remote": true,
+		"path": "classic/debug/bryntum-scheduler-debug.js"
+	},
+	{
+		"remote": true,
+		"path": "classic/debug/bryntum-gantt-pro-debug.js"
+	},
+	{
+		"remote": true,
+		"path": "classic/debug/ramcoGnt-debug.js"
+	}],
+	"css": [{
+		"remote": true,
+		"path": "classic/resources/LoadCSS.ashx"
+	},{
+		"remote": true,
+		"path": "classic/resources/ganttcss.css"
+	},{
+		"remote": true,
+		"path": "classic/resources/schedulercss.css"
+	},{
+		"remote": true,
+		"path": "classic/resources/calendarcss.css"
+	},{
+		"remote": true,
+		"path": "../RuleBuilder/resources/css/rulebuilder-all.css"
+	}],
+	"cache": {
+		"enable": true,
+		"deltas": "classic/deltas"
+	},
+	"fashion": {
+		"inliner": {
+			"enable": false
+		},
+		"missingParameters": "error"
+	},
+	"name": "RamcoHub",
+	"namespace": "RamcoHub",
+	"version": "1.0.0.0",
+	"framework": "ext",
+	"loader": {
+		"cache": "app20191220210000",
+		"cacheParam": "_dc"
+	},
+	"id": "5c2f7510-704f-4eb4-b5e3-4f2f7d2cfd19",
+	"toolkit": "classic",
+	"theme": "theme-triton",
+	"hash": "a382dccafb81ae5609bad5a0ea2d4a70561ce4a3",
+	"profile": "classic",
+	"resources": {
+		"path": "classic/resources",
+		"shared": "resources"
+	}
+}

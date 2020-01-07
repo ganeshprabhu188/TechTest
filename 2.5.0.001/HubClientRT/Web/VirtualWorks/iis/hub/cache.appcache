@@ -1,0 +1,19 @@
+CACHE MANIFEST
+# app20191220210000
+
+FALLBACK:
+
+NETWORK:
+maps.gstatic.com/*
+maps.google.com/*
+maps.googleapis.com/*
+mt0.googleapis.com/*
+mt1.googleapis.com/*
+mt2.googleapis.com/*
+mt3.googleapis.com/*
+khm0.googleapis.com/*
+khm1.googleapis.com/*
+cbk0.googleapis.com/*
+cbk1.googleapis.com/*
+gg.google.com/*
+*
